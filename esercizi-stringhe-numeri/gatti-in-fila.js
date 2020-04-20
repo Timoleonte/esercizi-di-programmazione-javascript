@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var gatti = 44;
+var infila = 6;
+
+var filetotali = Math.ceil(gatti/infila);
+var gattimancanti = (filetotali * infila) - gatti;
+
+console.log('${gatti}gatti in file per ${infila} si unirono compatti in ${filetotali} file. Ne rimasero fuori${gattimancanti});
